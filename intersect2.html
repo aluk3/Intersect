@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Meet the Seniors</title>
+        <link rel="stylesheet" href="intersetstyles.css">
+    <style>
+        
+         .holder {
+      height: 200px;
+      grid-gap: 10px;
+      padding: 10px;
+      display: grid;
+      grid-template-columns: [ann1]1fr [ann2]1fr [ann3]1fr [ann4]1fr 1fr 1fr;
+        grid-template-rows: [luk1]1fr [luk2]1fr [luk3]1fr [luk4]1fr;
+        
+        grid-template-areas:
+            "my-area my-area my-area my-area . ."
+            ". . . . . ."
+            ". my-area-2 . . . . "
+            ". . . . . ."
+            ". my-area-4 my-area-3 my-area-3 my-area-3 ."
+            ". my-area-5 my-area-5 my-area-5 my-area-6 ."
+            ". my-area-7 my-area-8 my-area-8 my-area-8 ."
+            ". my-area-9 my-area-9 my-area-9 my-area-10 ."
+            ". my-area-11 my-area-12 my-area-12 my-area-12 ."
+            ". my-area-13 my-area-13 my-area-13 my-area-14."
+            ". my-area-15 my-area-16 my-area-16 my-area-16 ."
+            ". my-area-17 my-area-17 my-area-17 my-area-18 ."
+            ". my-area-19 my-area-20 my-area-20 my-area-20 ."
+         ;
+       //* align-items: center;*//
+       //* justify-items: end;*//
+    }
+
+    .blocks {
+      background-color: yellow;
+    }
+
+    .back-button {
+            grid-area: my-area;
+           //* justify-self: start;*//
+           //* align-self: end;*//
+     //*   grid-column: ann1/ 3;
+        grid-row:luk2/4;*//
+      }
+
+    .featuring {
+            grid-area: my-area-2;
+        
+    }
+
+   
+      .block-three {
+            grid-area: my-area-3;
+            
+          
+    }
+        .block-four{
+            grid-area: my-area-4;
+            justify-self: center;
+            margin-top: 60px;
+        }
+        
+        .block-five{
+            grid-area: my-area-5;
+        }
+        .block-six{
+            grid-area: my-area-6;
+            justify-self: center;
+            margin-top: 70px;
+        }
+        
+        .block-seven{
+            grid-area: my-area-7;
+            justify-self: center;
+            margin-top: 60px;
+        }
+        
+        .block-eight{
+            grid-area: my-area-8;
+        }
+        .block-nine{
+            grid-area: my-area-9;
+        }
+        .block-ten{
+            grid-area: my-area-10;
+            justify-self: center;
+            margin-top: 50px;
+        }
+        .block-eleven{
+            grid-area: my-area-11;
+            justify-self: center;
+            margin-top: 70px;
+        }
+        .block-twelve{
+            grid-area: my-area-12;
+        }
+        .block-thirteen{
+            grid-area: my-area-13;
+        }
+        .block-fourteen{
+            grid-area: my-area-14;
+            justify-self: center;
+            margin-top: 90px;
+        }
+        .block-fifthteen{
+            grid-area: my-area-15;
+            justify-self: center;
+            margin-top: 90px;
+        }
+        .block-sixteen{
+            grid-area: my-area-16;
+        }
+        .block-seventeen{
+            grid-area: my-area-17;
+        }
+        .block-eighteen{
+            grid-area: my-area-18;
+            justify-self: center;
+            margin-top: 90px;
+        }
+        .block-ninteen{
+            grid-area: my-area-19;
+            justify-self: center;
+            margin-top: 50px;
+        }
+        .block-twenty{
+            grid-area: my-area-20;
+        }
+        
+        h1{
+            
+            font-family:"Helvetica Neue";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 40px;
+        }
+        h2{
+            font-family:"Helvetica Neue";
+            font-style: normal;
+            font-weight: 200;
+            font-size:50px;
+            
+        }
+        ul{
+            
+            font-family:"Helvetica Neue";
+            font-style: normal;
+            font-weight:200;
+            font-size: 24px;
+            
+        }
+        </style>
+        <body>
+            <div class="holder">
+      <div class="back-button">
+          <a href=Intersect.html>
+        <img src="backButton.png"\>
+              </a>
+      </div>
+      <div class="featuring">
+        <h1>Featuring</h1>
+      </div>
+      <div class="block-three">
+          <a href="intersect3.html"> 
+          <h2>
+              Annika
+          </h2>
+          </a>
+        
+            <ul>
+                <p>
+                <li>Hometown: Chicago</li>
+           <li> Favorite Cuisine: Japanese</li>
+         <li> First Pet: Dog</li>
+          </p>
+          </ul>
+          
+      </div>
+        <div class="block-four">
+            <a href="intersect3.html">
+                <img src="piggy.png" width="200"\>
+            </a>
+         </div>
+        <div class="block-five">
+            <h2>
+              Grace
+          </h2>
+                <ul>
+                <p>
+                <li>Hometown: Conneticut</li>
+           <li> Favorite Cuisine: Italian</li>
+         <li> First Pet: muffin</li>
+          </p>
+          </ul>
+                </div>
+                
+        <div class="block-six">
+                <img src="turtle.jpg" width="200"\>
+                </div>
+        <div class="block-eight">
+            <h2>
+              Teresa
+          </h2>
+        <ul>
+                <p>
+                <li>Hometown: Massachusetts</li>
+           <li> Favorite Cuisine: American</li>
+         <li> First Pet: Rock</li>
+          </p>
+          </ul>
+      </div>
+        <div class="block-seven">
+                <img src="cat.jpeg" width="200"\>
+         </div>
+        <div class="block-nine">
+            <h2>
+              Colin
+          </h2>
+                <ul>
+                <p>
+                <li>Hometown: Massachusetts</li>
+           <li> Favorite Cuisine: Italian</li>
+         <li> First Pet: Turtle</li>
+          </p>
+          </ul>
+                </div>
+                
+        <div class="block-ten">
+                <img src="dog.png" width="200"\>
+                </div>
+                
+            <div class="block-twelve">
+                <h2>
+              Bobby
+          </h2>
+        <ul>
+                <p>
+                <li>Hometown: Massachusetts</li>
+           <li> Favorite Cuisine: Thai</li>
+         <li> First Pet: snake</li>
+          </p>
+          </ul>
+      </div>
+        <div class="block-eleven">
+                <img src="tiger.jpg" width="200"\>
+         </div>
+        <div class="block-thirteen">
+            <h2>
+              Gabi
+          </h2>
+                <ul>
+                <p>
+                <li>Hometown: Brazil</li>
+           <li> Favorite Cuisine: Brazilian</li>
+         <li> First Pet: Dog</li>
+          </p>
+          </ul>
+                </div>
+                
+        <div class="block-fourteen">
+                <img src="bird.png" width="200"\>
+                </div>
+                
+                <div class="block-sixteen">
+                    <h2>
+              Colin
+          </h2>
+        <ul>
+                <p>
+                <li>Hometown: Massachusetts</li>
+           <li> Favorite Cuisine: Japanese</li>
+         <li> First Pet: cat</li>
+          </p>
+          </ul>
+      </div>
+        <div class="block-fifthteen">
+                <img src="bug.jpg" width="200"\>
+         </div>
+        <div class="block-seventeen">
+            <h2>
+              Sophie
+          </h2>
+                <ul>
+                <p>
+                <li>Hometown: Rhode Island</li>
+           <li> Favorite Cuisine: Indian</li>
+         <li> First Pet: also rock</li>
+          </p>
+          </ul>
+                </div>
+                
+        <div class="block-eighteen">
+                <img src="orca.jpg" width="200"\>
+                </div>
+          <div class="block-ninteen">
+               <img src="duck.jpg" width="100"\> 
+                </div>     
+              
+                <div class="block-twenty">
+                <h2>
+              Madison
+          </h2>
+                <ul>
+                <p>
+                <li>Hometown: Massachusetts</li>
+           <li> Favorite Cuisine: Pink</li>
+         <li> First Pet: cranberry</li>
+          </p>
+          </ul>
+                </div>
+                     
+    </div>
+        
+        
+        
+        
+        
+        </body>
+    </head>
+</html>
